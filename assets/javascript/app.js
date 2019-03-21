@@ -1,4 +1,4 @@
-//code for smooth scroll
+//code for smooth scroll got from W3Schools
 $('a[href*="#"]')
 // Remove links that don't actually link to anything
     .not('[href="#"]')

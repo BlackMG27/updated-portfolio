@@ -1,175 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="./assets/css/reset.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <title>Ogechi Ike | UI Developer/Designer</title>
-  </head>
 
-  <body>
-    <header id="head">
-      <img src="./assets/images/ike_logo.png" id="ikeLogo" alt="Ike Logo" />
-      <span class="open_nav" onclick="openNav()">&#9776; menu</span>
-      <nav class="topNav" role="navigation">
-        <a href="javascript:void(0)" class="close_button" onclick="closeNav()"
-          >&times;</a
-        >
-        <li class="nav__list" tabindex="0"><a href="./index.html">Home</a></li>
-        <li class="nav__list" tabindex="0"><a href="#project">Projects</a></li>
-        <li class="nav__list" tabindex="0"><a href="#about">About Me</a></li>
-        <li class="nav__list" tabindex="0">
-          <a href="#contact">Contact Me</a>
-        </li>
-      </nav>
-      <h1>Ogechi Ike</h1>
-      <h2>UI Developer / Designer</h2>
-    </header>
-    <div id="main">
-      <section class="container" id="project">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="./assets/css/reset.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <title>Ogechi Ike | UI Developer/Designer</title>
+</head>
+
+<body>
+  <header id="head">
+    <img src="./assets/images/ike_logo.png" id="ikeLogo" alt="Ike Logo" />
+    <span class="open_nav">&#9776; menu</span>
+    <nav class="topNav" role="navigation">
+      <a href="javascript:void(0)" class="close_button">&times;</a>
+      <li class="nav__list" tabindex="0"><a href="./index.html">Home</a></li>
+      <li class="nav__list" tabindex="0"><a href="#project">Projects</a></li>
+      <li class="nav__list" tabindex="0"><a href="#about">About Me</a></li>
+      <li class="nav__list" tabindex="0">
+        <a href="#contact">Contact Me</a>
+      </li>
+    </nav>
+    <h1>Ogechi Ike</h1>
+    <h2>UI Developer / Designer</h2>
+  </header>
+  <div id="main">
+    <section class="container" id="project">
+      <h3>
+        Projects <span><a href="#head">Back to Top</a></span>
+      </h3>
+      <div id="portfolio-gallery">
+        <figure class="portfolio__piece" tabindex="0">
+          <a href="https://neagtivefriction.github.io/Group-Project-1/" target="_blank">
+            <img src="./assets/images/group-project-1.png" alt="Movies Galore!" />
+            <figcaption>Movies Galore!</figcaption>
+          </a>
+        </figure>
+        <figure class="portfolio__piece" tabindex="0">
+          <a href="https://blackmg27.github.io/TriviaGame/" target="_blank">
+            <img src="./assets/images/trivia-game.png" alt="Trivia Game" />
+            <figcaption>Trivia Game</figcaption>
+          </a>
+        </figure>
+        <figure class="portfolio__piece" tabindex="0">
+          <a href="https://blackmg27.github.io/Giftastic/" target="_blank">
+            <img src="./assets/images/giftastic.png" alt="Giftastic" />
+            <figcaption>Giftastic!</figcaption>
+          </a>
+        </figure>
+        <figure class="portfolio__piece" tabindex="0">
+          <a href="https://blackmg27.github.io/train-scheduler/" target="_blank">
+            <img src="./assets/images/train-scheduler.png" alt="Train Scheduler" />
+            <figcaption>Train Scheduler</figcaption>
+          </a>
+        </figure>
+        <figure class="portfolio__piece" tabindex="0">
+          <a href="./assets/images/AIGA_Mentor_10-Screens.pdf" target="_blank">
+            <img src="./assets/images/mobile_wireframe.png" alt="Mobile Wireframe" />
+            <figcaption>Mobile Wireframe</figcaption>
+          </a>
+        </figure>
+        <figure class="portfolio__piece" tabindex="0">
+          <a href="https://blackmg27.github.io/unit-4-game/" target="_blank">
+            <img src="./assets/images/crystal-counter.png" alt="Crystal Counter" />
+            <figcaption>Crystal Counter</figcaption>
+          </a>
+        </figure>
+        <figure class="portfolio__piece" tabindex="0">
+          <a href="https://blackmg27.github.io/nerd-word-guess/" target="_blank">
+            <img src="./assets/images/nerd-word-guess.png" alt="Nerd Word Guess" />
+            <figcaption>Nerd Word Guess</figcaption>
+          </a>
+        </figure>
+        <figure class="portfolio__piece" tabindex="0">
+          <a href="https://blackmg27.github.io/Giftastic-nerd/" target="_blank">
+            <img src="./assets/images/giftastic-nerd.png" alt="Nerdy Giftastic!" />
+            <figcaption>Nerdy Giftastic!</figcaption>
+          </a>
+        </figure>
+      </div>
+    </section>
+    <section class="container" id="about">
+      <div>
         <h3>
-          Projects <span><a href="#head">Back to Top</a></span>
+          About Me <span><a href="#head">Back to Top</a></span>
         </h3>
-        <div id="portfolio-gallery">
-          <figure class="portfolio__piece" tabindex="0">
-            <a
-              href="https://neagtivefriction.github.io/Group-Project-1/"
-              target="_blank"
-            >
-              <img
-                src="./assets/images/group-project-1.png"
-                alt="Movies Galore!"
-              />
-              <figcaption>Movies Galore!</figcaption>
-            </a>
-          </figure>
-          <figure class="portfolio__piece" tabindex="0">
-            <a href="https://blackmg27.github.io/TriviaGame/" target="_blank">
-              <img src="./assets/images/trivia-game.png" alt="Trivia Game" />
-              <figcaption>Trivia Game</figcaption>
-            </a>
-          </figure>
-          <figure class="portfolio__piece" tabindex="0">
-            <a href="https://blackmg27.github.io/Giftastic/" target="_blank">
-              <img src="./assets/images/giftastic.png" alt="Giftastic" />
-              <figcaption>Giftastic!</figcaption>
-            </a>
-          </figure>
-          <figure class="portfolio__piece" tabindex="0">
-            <a
-              href="https://blackmg27.github.io/train-scheduler/"
-              target="_blank"
-            >
-              <img
-                src="./assets/images/train-scheduler.png"
-                alt="Train Scheduler"
-              />
-              <figcaption>Train Scheduler</figcaption>
-            </a>
-          </figure>
-          <figure class="portfolio__piece" tabindex="0">
-            <a
-              href="./assets/images/AIGA_Mentor_10-Screens.pdf"
-              target="_blank"
-            >
-              <img
-                src="./assets/images/mobile_wireframe.png"
-                alt="Mobile Wireframe"
-              />
-              <figcaption>Mobile Wireframe</figcaption>
-            </a>
-          </figure>
-          <figure class="portfolio__piece" tabindex="0">
-            <a href="https://blackmg27.github.io/unit-4-game/" target="_blank">
-              <img
-                src="./assets/images/crystal-counter.png"
-                alt="Crystal Counter"
-              />
-              <figcaption>Crystal Counter</figcaption>
-            </a>
-          </figure>
-          <figure class="portfolio__piece" tabindex="0">
-            <a
-              href="https://blackmg27.github.io/nerd-word-guess/"
-              target="_blank"
-            >
-              <img
-                src="./assets/images/nerd-word-guess.png"
-                alt="Nerd Word Guess"
-              />
-              <figcaption>Nerd Word Guess</figcaption>
-            </a>
-          </figure>
-          <figure class="portfolio__piece" tabindex="0">
-            <a
-              href="https://blackmg27.github.io/Giftastic-nerd/"
-              target="_blank"
-            >
-              <img
-                src="./assets/images/giftastic-nerd.png"
-                alt="Nerdy Giftastic!"
-              />
-              <figcaption>Nerdy Giftastic!</figcaption>
-            </a>
-          </figure>
-        </div>
-      </section>
-      <section class="container" id="about">
-        <div>
-          <h3>
-            About Me <span><a href="#head">Back to Top</a></span>
-          </h3>
-          <p>
-            I am a UI Developer with over three years of experience in web
-            design and development. I am someone who enjoys leveraging
-            background in graphics and web design to provide insightful user
-            experience with creativity, determination, and a drive for
-            excellence. I can collaborate well with others and can work
-            independently and highly regards communication. I have experience in
-            HTML5, CSS3, Javascript, jQuery, and Firebase.
-          </p>
-          <p>
-            When I am not creating new applications, you can find me: reading,
-            sketching, watching videos on the Internet, cooking, baking,
-            walking, listening to podcasts (<a
-              target="_blank"
-              href="https://www.codenewbie.org/podcast"
-              >Code Newbie</a
-            >, <a target="_blank" href="https://syntax.fm/">Syntax FM</a>,
-            <a target="_blank" href="https://jesusandjollof.simplecast.fm/"
-              >Jesus and Jollof</a
-            >, and
-            <a target="_blank" href="https://www.behindthebastards.com/podcasts"
-              >Behind the Bastards</a
-            >) and looking up places I want to visit.
-          </p>
-          <a
-            id="resumeLink"
-            href="./assets/images/01-22-2019_resume.pdf"
-            target="_blank"
-            >View My Resume</a
-          >
-        </div>
-        <div>
-          <img src="./assets/images/profile.jpg" alt="Ogechi Profile" />
-        </div>
-      </section>
-      <section class="container" id="contact">
-        <div>
-          <h3>
-            Contact Me <span><a href="#head">Back to Top</a></span>
-          </h3>
-          <li class="social__link">
-            <a
-              href="mailto:oike279@gmail.com?subject=Mesage%20Fromt%20Portfolio"
-              ><img src="./assets/images/e-mail.png" alt="Email" /> Email Me
-              with any questions!</a
-            >
-          </li>
-          <!-- <form>
+        <p>
+          I am a UI Developer with over three years of experience in web
+          design and development. I am someone who enjoys leveraging
+          background in graphics and web design to provide insightful user
+          experience with creativity, determination, and a drive for
+          excellence. I can collaborate well with others and can work
+          independently and highly regards communication. I have experience in
+          HTML5, CSS3, Javascript, jQuery, and Firebase.
+        </p>
+        <p>
+          When I am not creating new applications, you can find me: reading,
+          sketching, watching videos on the Internet, cooking, baking,
+          walking, listening to podcasts (<a target="_blank" href="https://www.codenewbie.org/podcast">Code Newbie</a>,
+          <a target="_blank" href="https://syntax.fm/">Syntax FM</a>,
+          <a target="_blank" href="https://jesusandjollof.simplecast.fm/">Jesus and Jollof</a>, and
+          <a target="_blank" href="https://www.behindthebastards.com/podcasts">Behind the Bastards</a>) and looking up
+          places I want to visit.
+        </p>
+        <a id="resumeLink" href="./assets/images/01-22-2019_resume.pdf" target="_blank">View My Resume</a>
+      </div>
+      <div>
+        <img src="./assets/images/profile.jpg" alt="Ogechi Profile" />
+      </div>
+    </section>
+    <section class="container" id="contact">
+      <div>
+        <h3>
+          Contact Me <span><a href="#head">Back to Top</a></span>
+        </h3>
+        <li class="social__link">
+          <a href="mailto:oike279@gmail.com?subject=Mesage%20Fromt%20Portfolio"><img src="./assets/images/e-mail.png"
+              alt="Email" /> Email Me
+            with any questions!</a>
+        </li>
+        <!-- <form>
             <label for="messageName">Name</label><br>
             <input type="text" id="messageName" placeholder="Enter Your Name">
             <label for="messageEmail">Email</label><br>
@@ -178,45 +131,36 @@
             <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
             <button type="submit">Send Message</button>
           </form> -->
-        </div>
-        <div>
-          <h4>Follow Me on Social Media</h4>
-          <ul>
-            <li class="social__link">
-              <a href="https://github.com/BlackMG27" target="_blank"
-                ><img src="./assets/images/github.png" alt="Github" /> Github</a
-              >
-            </li>
-            <li class="social__link">
-              <a href="https://www.linkedin.com/in/ogechi-ike" target="_blank">
-                <img
-                  src="./assets/images/linkedin.png"
-                  alt="LinkedIn"
-                />LinkedIn</a
-              >
-            </li>
-            <li class="social__link">
-              <a href="https://twitter.com/OgIke27" target="_blank"
-                ><img
-                  src="./assets/images/twitter.png"
-                  alt="Twitter"
-                />Twitter</a
-              >
-            </li>
-            <li class="social__link">
-              <a href="https://medium.com/@ogechiike" target="_blank"
-                ><img src="./assets/images/medium.png" alt="Medium" />Medium</a
-              >
-            </li>
-          </ul>
-        </div>
-      </section>
-      <div id="push"></div>
-      <footer>
-        <p>&copy; 2019 Ike Designs. All Rights Reserved.</p>
-      </footer>
-    </div>
+      </div>
+      <div>
+        <h4>Follow Me on Social Media</h4>
+        <ul>
+          <li class="social__link">
+            <a href="https://github.com/BlackMG27" target="_blank"><img src="./assets/images/github.png" alt="Github" />
+              Github</a>
+          </li>
+          <li class="social__link">
+            <a href="https://www.linkedin.com/in/ogechi-ike" target="_blank">
+              <img src="./assets/images/linkedin.png" alt="LinkedIn" />LinkedIn</a>
+          </li>
+          <li class="social__link">
+            <a href="https://twitter.com/OgIke27" target="_blank"><img src="./assets/images/twitter.png"
+                alt="Twitter" />Twitter</a>
+          </li>
+          <li class="social__link">
+            <a href="https://medium.com/@ogechiike" target="_blank"><img src="./assets/images/medium.png"
+                alt="Medium" />Medium</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <div id="push"></div>
+    <footer>
+      <p>&copy; 2019 Ike Designs. All Rights Reserved.</p>
+    </footer>
+  </div>
 
-    <script src="./assets/javascript/app.js"></script>
-  </body>
+  <script src="./assets/javascript/app.js"></script>
+</body>
+
 </html>
