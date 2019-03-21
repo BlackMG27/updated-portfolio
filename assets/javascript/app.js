@@ -37,24 +37,24 @@ $('a[href*="#"]')
         }
     });
 
-function openNav() {
-    document
-        .getElementById('topNav')
-        .style
-        .width = '250px';
-    document
-        .getElementById('main')
-        .style
-        .marginLeft = '250px';
-}
+// var media = ('(max-width: 499px)');
+if (window.matchMedia('(max-width:499px)').matches) {
+    $('nav').addClass('top_menu');
+    $('.open_nav').click(function () {
+        $('nav').removeClass('top_menu');
+        $('nav').addClass('top_menu_max');
+        $('#main').addClass('main-left');
+    });
 
-function closeNav() {
-    document
-        .getElementById('topNav')
-        .style
-        .width = '0';
-    document
-        .getElementById('main')
-        .style
-        .marginLeft = '0';
+    $('.close_button').click(function () {
+        $('nav').addClass('top_menu');
+        $('nav').removeClass('top_menu_max');
+        $("#main").removeClass('main-left');
+    });
+
+    $('#main').click(function () {
+        $('nav').addClass('top_menu');
+        $('nav').removeClass('top_menu_max');
+        $("#main").removeClass('main-left');
+    })
 }
